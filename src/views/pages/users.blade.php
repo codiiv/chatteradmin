@@ -20,11 +20,11 @@
             <div class="cell hand--1-2 nexus--1-5"><p>{{ $user->id }}</p></div><!--
           --><div class="cell hand--1-2 nexus--1-5"><p>{{ $user->name }}</p></div><!--
           --><div class="cell hand--1-2 nexus--1-5"><p>{{ $user->email }}</p></div><!--
-          --><div class="cell hand--1-2 nexus--1-5"><p>Thirds</p></div><!--
+          --><div class="cell hand--1-2 nexus--1-5"><p></p></div><!--
             --><div class="cell hand--1-2 nexus--1-5"><p>{{ $user->created_at }}</p></div>
         </div>
         <div class="update-item-actions hidden">
-          <button class="edit" type="button" name="button">Edit</button><button class="delete" type="button" name="button">Delete</button>
+          <button class="edit" type="button" name="button">Edit</button><button class="delete" type="button" name="button" disabled>Delete</button>
         </div>
       </div>
     </li>

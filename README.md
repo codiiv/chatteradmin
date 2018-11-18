@@ -2,7 +2,7 @@
 
 ### Installation
 
-<strong>Quick Note</strong>: This is package builds upon the ``` thedevdojo/chatter ``` Laravel forum package. Therefore, make sure you install it and configure it as needed.
+<strong>Quick Note</strong>: This is package builds upon the ``` thedevdojo/chatter ``` Laravel forum package. Therefore, make sure you install it and configure it as needed. https://github.com/thedevdojo/chatter#installation
 
 Also, this package is tested on Laravel 5.7 so far. It could work with 5.6 and 5.5, but I haven't done the necessary tests
 
