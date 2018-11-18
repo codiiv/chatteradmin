@@ -47,7 +47,7 @@ class Common
             <div class="list-inner">
               <div class="pure-g">
                   <div class="cell hand--1-2 nexus--1-3"><p>'. $parent->id .'</p></div><!--
-                --><div class="cell hand--1-2 nexus--1-3"><p>'.$pointer. $parent->name .'</p></div><!--
+                --><div class="cell hand--1-2 nexus--1-3"><span class="thecolor" style="background-color:'.$parent->color.'"></span><p>'.$pointer. $parent->name .'</p></div><!--
                 --><div class="cell hand--1-2 nexus--1-3"><p>'. $parent->slug .'</p></div>
               </div>
               <div class="update-item-actions hidden">

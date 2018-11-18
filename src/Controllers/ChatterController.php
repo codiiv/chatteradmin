@@ -68,15 +68,28 @@ class ChatterController extends Controller
   static public function deleteCategory(){
     $cat  = $_POST['cat'];
     $page = $_POST['page'];
+    if(\Auth::check()):
+      $dis = ForumCategory::where('id', $cat)->first();
+      $directParent = $dis->parent_id;
+      // We update direct descendants if any
+      $updateOrphans = ForumCategory::where('parent_id', $cat)
+      ->update(['parent_id' => $directParent]);
 
-    $deleted = ForumCategory::destroy($cat);
-    if($deleted){
-      $message = __("Deleted Successfully");
-      $msgtype = "success";
-    }else{
-      $message = __("There were errors deleting category");
+      //WE then obliterate the category
+      $deleted = ForumCategory::destroy($cat);
+
+      if($deleted){
+        $message = __("Deleted Successfully");
+        $msgtype = "success";
+      }else{
+        $message = __("There were errors deleting category");
+        $msgtype = 0;
+      }
+
+    else:
+      $message = __("You are trying to be smart");
       $msgtype = 0;
-    }
+    endif;
     return response()->json(["message"=>$message, "msgtype"=>$msgtype, 'page'=>$page]);
   }
 }

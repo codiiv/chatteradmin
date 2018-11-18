@@ -101,3 +101,11 @@ button[name="addnew-cat"] {
 button[disabled] {
     cursor: not-allowed;
 }
+.thecolor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
