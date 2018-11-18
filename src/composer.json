@@ -10,5 +10,17 @@
             "name": "Codiiv",
             "email": "janviersoft@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+          "Codiiv\\Chatter\\": "vendor/codiiv/chatter/src"
+        }
+      },
+      "minimum-stability": "dev",
+      "require": {
+        "laravel/framework": "5.7.*"
+      },
+      "require-dev": {
+          "laravel/laravel": "5.7."
+    }
 }
