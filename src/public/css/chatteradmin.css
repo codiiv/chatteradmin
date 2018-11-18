@@ -1,0 +1,103 @@
+.hidden{ display: none;}
+.chatter-admin-extended {
+    width: 90em;
+    margin: auto;
+}
+.pure-g.full-master ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pure-g.full-master ul li:hover{
+  background-color: #1f8dd6;
+}
+.pure-g.full-master ul li:hover a{
+  color: #fff; text-decoration: none
+}
+.main-menu-admin {
+    background-color: #191818;min-height: 45rem;
+}
+.chatter-admin-extendedx {
+    min-height: 50em;
+}
+.main-menu-admin a {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 22px;
+}
+.main-menu-admin a span {
+    display: none;
+}.inner-error {
+    text-align: center;
+    padding: 4rem;
+}
+.items-head p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+.items-head p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    font-size: 1.75rem;
+    color: #1f8dd6;
+}.items-head:hover p { color: #fff;}
+.pure-g.full-master ul li:hover{
+  color: #fff;
+}
+.items-unique:nth-child(2n+1) {
+  background-color: #ccc;
+}
+.items-unique p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+.items-unique {
+    min-height: 3rem;
+}
+.list-inner {
+  display: block;
+  padding-top: 0.3rem;
+  font-size: 1.4rem;
+}
+.left-inner {
+    padding: 1rem;
+}
+button[name="addnew-cat"] {
+    background-color: #1f8dd6;
+    color: #fff;
+    border: none;
+    padding: 0.3rem 1rem;
+    font-size: 1.5rem;
+    display: block;
+    margin: 4rem auto;
+}
+.left-inner label {
+    font-size: 1.5rem;color:#1f8dd6;
+}
+.form-row {
+    padding: 1rem 0.5rem;
+}
+.update-item-actions button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    margin-right: 0.5rem;
+    min-width: 9rem;
+    margin-bottom: 0.5rem;
+}
+.pagination {
+    margin-top: 1rem !important;
+}
+.chosenone {
+    background-color: #1f8dd6 !important; color: #fff;
+}
+button[disabled] {
+    cursor: not-allowed;
+}

@@ -1,0 +1,9 @@
+@media only screen and (min-width: 40em){
+  #chatter .conversation ul.discussions li .chatter_posts .chatter_middle {
+      margin-left: 0px;
+      padding-left: 80px;}
+  .row {display: flex;}
+  .main-menu-admin a span {
+      display: inline-block;
+  }
+}

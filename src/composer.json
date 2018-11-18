@@ -1,0 +1,14 @@
+{
+    "name": "codiiv/chatter",
+    "description": "A package to provide extended functionality for the beautiful thedevdojo/chatter forums for Laravel",
+    "require": {
+        "devdojo/chatter": "^0.2.18"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Codiiv",
+            "email": "janviersoft@gmail.com"
+        }
+    ]
+}

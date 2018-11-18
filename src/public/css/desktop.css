@@ -1,0 +1,18 @@
+@media only screen and (min-width: 60em){
+  #chatter ul.discussions li a.discussion_list .chatter_middle, #chatter ul.discussions li .chatter_posts .chatter_middle {
+      margin-left: 60px;
+      margin-right: 50px;margin-top: 1rem;
+  }
+  #chatter .conversation ul.discussions li .chatter_posts .chatter_middle {
+      padding-left: 80px;margin-top: 0;
+  }
+  #chatter.discussion #new_response {
+    padding-left: 100px;
+    padding-right: 15px;
+  }
+  #chatter #new_discussion, #new_discussion_in_discussion_view {position: fixed;left: 28%;width: 54rem !important;}
+  .nav-stacked li {display: block;width: 97%;}
+  .main-menu-admin a .fa {
+    margin-right: 1rem;
+  }
+}
