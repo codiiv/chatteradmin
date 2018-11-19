@@ -1,6 +1,14 @@
 {
     "name": "codiiv/chatteradmin",
     "description": "A package to provide extended functionality for the beautiful thedevdojo/chatter forums for Laravel",
+    "homepage": "https://github.com/codiiv/chatteradmin",
+    "keywords": [
+        "chatter",
+        "laravel",
+        "laravel forum",
+        "laravel forum admin",
+        "chatter admin"
+    ],
     "require": {
         "devdojo/chatter": "^0.2.18"
     },
