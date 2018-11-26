@@ -62,5 +62,8 @@ class ChatterServiceProvider extends ServiceProvider
       // register our controller
       $this->app->make('Codiiv\Chatter\Controllers\ChatterController');
       $this->loadViewsFrom(__DIR__.'/views', 'chatter');
+      $this->commands([
+        Console\Commands\AssignSuperadmin::class
+      ]);
     }
 }
