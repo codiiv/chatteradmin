@@ -45,9 +45,16 @@ Also, this package is tested on Laravel 5.7 so far. It could work with 5.6 and 5
 
 6. Lastly, CONFIGURE SUPER ADMIN account.
 
-  NB: In a future version, this will be done via an artisan command (already working on it)
-
-  - Once you have run ``` php artisan migrate ``` , look for the table  ``` *chatter_options ``` and add a row with the following column values:
+    You can do this two ways 
+    
+    A) Run this command `php artisan chatter:superadmin someemail@somedomain.tld `  <strong>replacing someemail@somedomain.tld </strong> by the email of the user you want to set  as super admin. Note that you can only have one super admin. 
+    
+    IN a future version, we will add ability to have multiple admins, but the `super admin` role will remain one user
+    
+    OR 
+    
+    
+    B)   - Once you have run ``` php artisan migrate ``` , look for the table  ``` *chatter_options ``` and add a row with the following column values:
 
     ```
       option_name   >>  master_admin  
