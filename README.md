@@ -18,7 +18,12 @@ Also, this package is tested on Laravel 5.7 so far. It could work with 5.6 and 5
    **If you're installing on Laravel 5.5+ skip this step**
 
     ```
-    Codiiv\Chatter\ChatterServiceProvider::class,
+    'providers' = [
+        // ...
+        Codiiv\Chatter\ChatterServiceProvider::class,
+        // ...
+    ]
+    
     ```
 
 3. Publish the Vendor Assets files by running:
