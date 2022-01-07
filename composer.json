@@ -33,9 +33,9 @@
       },
       "minimum-stability": "dev",
       "require": {
-        "laravel/framework": "6.20.26"
+        "laravel/framework": "6.20.42"
       },
       "require-dev": {
-        "laravel/framework": "6.20.26"
+        "laravel/framework": "6.20.42"
     }
 }
